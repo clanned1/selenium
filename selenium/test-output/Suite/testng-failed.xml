@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="data" value="100"/>
+  <parameter name="data1" value="100"/>
+  <test name="Test(failed)">
+    <parameter name="data" value="100"/>
+    <parameter name="data1" value="100"/>
+    <classes>
+      <class name="day05.yunsuan">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- day05.yunsuan -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
